@@ -24,16 +24,11 @@ This command will initiate the Tile Server and start downloading the required `m
 ### Option 2: Manual Tile Download
 If you want more control over the tile downloading process, you can manually download the required tiles before starting the server. Follow the steps below:
 
-1. Open your terminal and navigate to the `mbtiles` directory within the project.
+1. Execute the following command to download the required tiles:
+
 
 ```bash
-cd mbtiles
-```
-
-2. Execute the following command to download the required tiles:
-
-```bash
-bash download_tiles.sh
+bash /mbtiles/download_tiles.sh
 ```
 
 This script will download the necessary `mbtiles` files for local storage.
