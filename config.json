@@ -1,0 +1,41 @@
+{
+  "options": {
+    "paths": {
+      "root": "",
+      "fonts": "",
+      "sprites": "",
+      "styles": "",
+      "mbtiles": "mbtiles"
+    },
+    "domains": ["localhost:8081", "127.0.0.1:8081"],
+    "formatQuality": {
+      "jpeg": 80,
+      "webp": 90
+    },
+    "maxScaleFactor": 3,
+    "maxSize": 2048,
+    "pbfAlias": "pbf",
+    "serveAllFonts": false,
+    "serveAllStyles": false,
+    "serveStaticMaps": true,
+    "tileMargin": 0
+  },
+  "styles": {},
+  "data": {
+    "iris": {
+      "mbtiles": "IRIS_GE.mbtiles"
+    },
+    "drought": {
+      "mbtiles": "risk_rga_2013_fr.mbtiles"
+    },
+    "submersion": {
+      "mbtiles": "marine_submersion.mbtiles"
+    },
+    "overflow_runoff": {
+      "mbtiles": "flood_runoff.mbtiles"
+    },
+    "tiles_filosofi_appenin": {
+      "mbtiles": "tiles_filosofi_appenin.mbtiles"
+    }
+  }
+}

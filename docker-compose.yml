@@ -1,0 +1,10 @@
+version: '3.1'
+services:
+  tiles:
+    image: klokantech/tileserver-gl
+    ports:
+      - "8081:80"
+    volumes:
+      - ./mbtiles:/usr/src/app/mbtiles
+      - ./config.json:/usr/src/app/config.json
+    command: ["tileserver-gl", "tiles", "-c", "/usr/src/app/config.json"]

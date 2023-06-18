@@ -1,0 +1,13 @@
+{
+  "name": "falcotiles",
+  "version": "1.0.0",
+  "description": "Tiles server for cartographic visualization",
+  "main": "index.js",
+  "scripts": {},
+  "dependencies": {
+    "tileserver-gl-light": "^4.4.10",
+    "tileserver-gl-styles": "1.2.0"
+  },
+  "devDependencies": {},
+  "keywords": []
+}
