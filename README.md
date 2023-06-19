@@ -1,4 +1,4 @@
-# Tile Server - README
+# API-TILES
 
 ## Introduction
 This project is a Tile Server implementation using `tileserver-gl`. The Tile Server allows you to serve map tiles for various geographic data sources. Please note that a minimum of 10 GB of free disk space is required to run this server.
@@ -8,7 +8,7 @@ This project is a Tile Server implementation using `tileserver-gl`. The Tile Ser
 ## Getting Started
 To run the Tile Server, you have two options:
 
-### Option 1: Docker Volume
+### Option 1: Download and Run Docker Image
 If you prefer a simpler approach, you can directly launch the Docker volume. However, please note that the initial launch may take some time, depending on your internet connection speed. Follow the steps below to get started:
 
 1. Ensure you have Docker installed on your system.
@@ -16,12 +16,12 @@ If you prefer a simpler approach, you can directly launch the Docker volume. How
 3. Execute the following command:
 
 ```bash
-docker-compose up
+bash init.sh
 ```
 
-This command will initiate the Tile Server and start downloading the required `mbtiles` files.
+This command start downloading the required `mbtiles` files and initiate the Tile Server.
 
-### Option 2: Manual Tile Download
+### Option 2: Manual download and starting server
 If you want more control over the tile downloading process, you can manually download the required tiles before starting the server. Follow the steps below:
 
 1. Execute the following command to download the required tiles:
@@ -33,7 +33,6 @@ bash /mbtiles/download_tiles.sh
 
 This script will download the necessary `mbtiles` files for local storage.
 
-## Starting the Server
 Once the server is mounted, the map data will be available locally on `http://127.0.0.1:8081`. To start the server, follow the steps below:
 
 1. Open your terminal and navigate to the project's root directory.
