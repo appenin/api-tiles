@@ -27,7 +27,7 @@ fi
 
 FILOSOFI_RESTRUCTED_TILES_URL='https://www.data.gouv.fr/fr/datasets/r/107b284d-135c-4da4-a2f8-cae25a1197a6'
 FILOSOFI_RESTRUCTED_TILES_FILE_ZIP='./mbtiles/filosofi-restructed.mbtiles.7z'
-FILOSOFI_RESTRUCTED_FILE='./mbtiles/filosofi_restructed.mbtiles'
+FILOSOFI_RESTRUCTED_FILE='./mbtiles/tiles_filosofi_appenin.mbtiles'
 
 if [ ! -f ${FILOSOFI_RESTRUCTED_FILE} ]; then
     echo "Downloading ${FILOSOFI_RESTRUCTED_FILE}..."
@@ -49,9 +49,9 @@ if [ ! -f ${IRIS_GE_FILE} ]; then
     echo "Downloaded ${IRIS_GE_FILE}"
 fi
 
-RGA_TILES_URL='https://www.data.gouv.fr/fr/datasets/r/9bb1f1eb-101d-4890-a980-dce4cac285a3'
-RGA_TILES_FILE_ZIP='./mbtiles/risk-rga-2013-fr.mbtiles.7z'
-RGA_FILE='./mbtiles/risk_rga_2013_fr.mbtiles'
+RGA_TILES_URL='https://www.data.gouv.fr/fr/datasets/r/c944be1e-06d6-46be-bf7d-9f9ad2b8ced9'
+RGA_TILES_FILE_ZIP='./mbtiles/expoargile-fxx-4326.mbtiles.7z'
+RGA_FILE='./mbtiles/ExpoArgile_Fxx_4326.mbtiles'
 
 if [ ! -f ${RGA_FILE} ]; then
     echo "Downloading ${RGA_FILE}..."

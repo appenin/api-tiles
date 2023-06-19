@@ -26,7 +26,7 @@
       "mbtiles": "IRIS_GE.mbtiles"
     },
     "drought": {
-      "mbtiles": "risk_rga_2013_fr.mbtiles"
+      "mbtiles": "ExpoArgile_Fxx_4326.mbtiles"
     },
     "submersion": {
       "mbtiles": "marine_submersion.mbtiles"
